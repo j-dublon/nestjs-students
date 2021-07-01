@@ -28,7 +28,7 @@ export class LessonService {
     return this.lessonRepository.find()
   }
 
-  async getLesson(id): Promise<Lesson> {
+  async getLesson(id: string): Promise<Lesson> {
     return this.lessonRepository.findOne({id})
   }
 

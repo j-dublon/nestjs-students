@@ -1,3 +1,11 @@
+/*
+ * Jira Ticket: 
+ * Created Date: Thu, 1st Jul 2021, 15:46:01 pm
+ * Author: Jodi Dublon
+ * Email: jodi.dublon@thedistance.co.uk
+ * Copyright (c) 2021 The Distance
+ */
+
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { CreateLessonInput } from 'src/lesson/lesson.input';
